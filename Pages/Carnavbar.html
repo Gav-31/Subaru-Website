@@ -1,0 +1,158 @@
+        
+    <!-- Navbar for Vehicle section -->
+
+    <div class="container">
+        <div class="vehicle-navbar">
+            <div class="vehicle-navbar-col">
+                <ul class="content-btn">
+                    <li class="nav-item">
+                        <button class="nav-link" onclick="showContent(1)">SUVs</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" onclick="showContent(1)">Cars</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" onclick="showContent(1)">Perfomance</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" onclick="showContent(1)">Electric</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Vehicle section -->
+
+        <!-- Content for Suv-->
+
+        <section class="content" id="content-1">
+            <h1 class="heading"></h1>
+            <div class="vehicles-slider">
+                <div class="wrapper">
+                    <div class="box">
+                        <img src="Assets/2024crosstrek.webp" alt="">
+                        <div class="content">
+                            <h3>2024 Crosstrek</h3>
+                            <div class="price"><span>Starting at</span> </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="Assets/2024forester.webp" alt="">
+                        <div class="content">
+                            <h3>2024 Forester</h3>
+                            <div class="price"><span>Starting at</span> </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="Assets/2024outback.webp" alt="">
+                        <div class="content">
+                            <h3>2024 Outback</h3>
+                            <div class="price"><span>Starting at</span> </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="Assets/2024solterra.webp" alt="">
+                        <div class="content">
+                            <h3>2024 Solterra</h3>
+                            <div class="price"><span>Starting at</span> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content for Cars-->
+
+            <section class="content" id="content-2">
+                <h1 class="heading"></h1>
+                <div class="vehicles-slider">
+                    <div class="wrapper">
+                        <div class="box">
+                            <img src="Assets/2024imprezza.webp" alt="">
+                            <div class="content">
+                                <h3>2024 Impreza</h3>
+                                <div class="price"><span>Starting at</span> </div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="Assets/2024legacy.webp" alt="">
+                            <div class="content">
+                                <h3>2024 Legacy</h3>
+                                <div class="price"><span>Starting at</span> </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Content for Performance-->
+
+                <section class="content" id="content-3">
+                    <h1 class="heading"></h1>
+                    <div class="vehicles-slider">
+                        <div class="wrapper">
+                            <div class="box">
+                                <img src="Assets/2024brz.webp" alt="">
+                                <div class="content">
+                                    <h3>2024 BRZ</h3>
+                                    <div class="price"><span>Starting at</span> </div>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <img src="Assets/2024WRX.webp" alt="">
+                                <div class="content">
+                                    <h3>2024 WRX</h3>
+                                    <div class="price"><span>Starting at</span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content for Electric and Hybrid-->
+
+                    <section class="content" id="content-4">
+                        <h1 class="heading"></h1>
+                        <div class="vehicles-slider">
+                            <div class="wrapper">
+                                <div class="box">
+                                    <img src="Assets/2024solterra.webp" alt="">
+                                    <div class="content">
+                                        <h3>2024 solterra</h3>
+                                        <div class="price"><span>Starting at</span> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    </div>
+
+
+    /*Vehicles Section*/
+
+.vehicles .vehicles-slider{
+    padding-bottom: 5rem;
+}
+.vehicles .vehicles-slider .box{
+    text-align: center;
+    width: 300px;
+}
+.vehicles .vehicles-slider .box img{
+    width: 100%;
+    opacity: .5;
+    transform: scale(.8);
+}
+.vehicles .vehicles-slider .box .content{
+    padding-top: 1rem;
+}
+.vehicles .vehicles-slider .box .content h3{
+    font-size: 1.5 rem;
+    color: var(--black);
+}
+.vehicles .vehicles-slider .box .content .price{
+    font-size: 1rem;
+    color: #003ee6;
+}
